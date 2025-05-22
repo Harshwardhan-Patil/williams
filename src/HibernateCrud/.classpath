@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Downloads/slf4j-simple-2.0.17-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Downloads/slf4j-api-2.0.17-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Downloads/hibernate-core-5.6.10.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Downloads/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Downloads/ojdbc11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

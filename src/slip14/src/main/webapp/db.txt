@@ -1,0 +1,11 @@
+CREATE TABLE Book (
+    book_id NUMBER PRIMARY KEY,
+    title VARCHAR2(100),
+    publisher VARCHAR2(100)
+);
+
+INSERT INTO Book (book_id, title, publisher) VALUES (101, 'The Catcher in the Rye', 'Little, Brown and Company');
+INSERT INTO Book (book_id, title, publisher) VALUES (102, 'The Hobbit', 'HarperCollins');
+INSERT INTO Book (book_id, title, publisher) VALUES (103, 'Brave New World', 'Chatto & Windus');
+INSERT INTO Book (book_id, title, publisher) VALUES (104, 'Fahrenheit 451', 'Ballantine Books');
+INSERT INTO Book (book_id, title, publisher) VALUES (105, 'The Road', 'Alfred A. Knopf');

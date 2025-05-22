@@ -1,0 +1,19 @@
+CREATE TABLE EMPLOYEE (
+    emp_id NUMBER PRIMARY KEY,
+    first_name VARCHAR2(50),
+    last_name VARCHAR2(50),
+    age NUMBER(3),
+    date_of_joining DATE
+);
+
+-- Optional: Create a sequence for emp_id
+CREATE SEQUENCE emp_seq START WITH 1 INCREMENT BY 1;
+
+-- Sample data insert using sequence
+INSERT INTO EMPLOYEE (emp_id, first_name, last_name, age, date_of_joining)
+VALUES (emp_seq.NEXTVAL, 'amol', 'jadhav', 30, TO_DATE('2015-06-10', 'YYYY-MM-DD'));
+
+INSERT INTO EMPLOYEE (emp_id, first_name, last_name, age, date_of_joining)
+VALUES (emp_seq.NEXTVAL, 'shubham', 'kale', 28, TO_DATE('2018-09-15', 'YYYY-MM-DD'));
+
+COMMIT;
