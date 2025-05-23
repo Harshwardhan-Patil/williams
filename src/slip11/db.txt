@@ -6,11 +6,10 @@ CREATE TABLE STUDENT (
     dob DATE
 );
 
--- Create a SEQUENCE for roll numbers (optional if inserting manually)
-CREATE SEQUENCE student_seq START WITH 1 INCREMENT BY 1;
+
 
 -- Insert sample records
-INSERT INTO STUDENT (roll_no, name, class, dob) VALUES (student_seq.NEXTVAL, 'Amol', 'FYBSc', TO_DATE('2003-08-15', 'YYYY-MM-DD'));
-INSERT INTO STUDENT (roll_no, name, class, dob) VALUES (student_seq.NEXTVAL, 'shubham', 'SYBSc', TO_DATE('2002-12-01', 'YYYY-MM-DD'));
-INSERT INTO STUDENT (roll_no, name, class, dob) VALUES (student_seq.NEXTVAL, 'dhansri', 'TYBSc', TO_DATE('2001-06-21', 'YYYY-MM-DD'));
+INSERT INTO STUDENT (roll_no, name, class, dob) VALUES (101, 'Amol', 'FYBSc', TO_DATE('2003-08-15', 'YYYY-MM-DD'));
+INSERT INTO STUDENT (roll_no, name, class, dob) VALUES (102, 'shubham', 'SYBSc', TO_DATE('2002-12-01', 'YYYY-MM-DD'));
+INSERT INTO STUDENT (roll_no, name, class, dob) VALUES (103, 'dhansri', 'TYBSc', TO_DATE('2001-06-21', 'YYYY-MM-DD'));
 COMMIT;

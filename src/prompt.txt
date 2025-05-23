@@ -1,0 +1,6 @@
+1st prompt - My college is using java 1.8.0_17 version and 2022.03.4.23 version of eclipse  so i want to solve thease assignment (i will give them below) i how can i execute it and what changes i need to do 
+
+2nd prompt - 
+under question past this:
+"give instruction from project start until it runs successfully"
+
